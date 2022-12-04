@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0b427f67780f044ab9084b2c4caadf, type: 3}
+  m_Name: ChessResources
+  m_EditorClassIdentifier: 
+  _figureItem: {fileID: 6854021447594489196, guid: 9a87357052158ea4eacc90567d94dd50, type: 3}
+  _markItem: {fileID: 3895599372860074459, guid: 73f0a9d94badcab43a2ebb9be881e286, type: 3}
+  _skinPacks:
+  - _name: Default
+    _team1Color: {r: 1, g: 1, b: 1, a: 1}
+    _team2Color: {r: 0.3372549, g: 0.3254902, b: 0.32156864, a: 1}
+    _imageScale: 0.74
+    _pawnSprite: {fileID: 21300000, guid: cf06a315c556de24f9dc77f2e9890659, type: 3}
+    _bishopSprite: {fileID: 21300000, guid: c2889e5d541b8c4429f2812e436790e9, type: 3}
+    _knightSprite: {fileID: 21300000, guid: f23b336947f6b034e9e26bea9f00ccaf, type: 3}
+    _rookSprite: {fileID: 21300000, guid: f52ccae163f13d2468ae05a8d4bed218, type: 3}
+    _queenSprite: {fileID: 21300000, guid: ce87db6961dd19a4aa3e93e3c48935a9, type: 3}
+    _kingSprite: {fileID: 21300000, guid: 956a253f4c2ee3f449bb419f32dc41af, type: 3}
+    _markSprite: {fileID: 0}
+    _cancelMarkColor: {r: 0.7924528, g: 0.7924528, b: 0, a: 0.3764706}
+    _moveMarkColor: {r: 0.19215688, g: 0.18039216, b: 0.16862746, a: 0.3764706}
