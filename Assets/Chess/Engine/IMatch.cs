@@ -5,7 +5,7 @@ namespace Chess.Engine
 {
     public interface IMatch
     {
-        Board Board { get; }
+        IBoard Board { get; }
         Team TeamTurn { get; }
         int Turn { get; }
         IFigure? FigureToUpgrade { get; }

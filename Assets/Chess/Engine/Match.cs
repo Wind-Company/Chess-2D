@@ -5,7 +5,7 @@ namespace Chess.Engine
 {
     public class Match : IMatch
     {
-        public Board Board { get; private set; }
+        public IBoard Board { get; private set; }
         public Team TeamTurn => (Team)(Turn % 2);
         public int Turn { get; private set; }
         public IFigure FigureToUpgrade { get; private set; }
@@ -26,7 +26,7 @@ namespace Chess.Engine
                     if (Equals(figure.Team, TeamTurn) && figure.MovePaths.Contains(to))
                     {
                         figure.Position = to;
-                        if (figure.Type == FigureType.Pawn && ((Point)figure.Position).y.Equals(0) || ((Point)figure.Position).y.Equals(7))
+                        if (figure.Type == FigureType.Pawn && (((Point)figure.Position).y.Equals(0) || ((Point)figure.Position).y.Equals(7)))
                         {
                             FigureToUpgrade = figure;
                         }
